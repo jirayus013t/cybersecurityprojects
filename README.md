@@ -2,7 +2,7 @@
 
 <details>
   <br>
-  <summary>Sherlocks</summary>
+  <summary>Hack the Box Sherlocks</summary>
   
   |No.|SOC|DFIR|Malware Analysis|Threat Intelligence|
   |:-:|:-:|:--:|:--------------:|:-----------------:|
