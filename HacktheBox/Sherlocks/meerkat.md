@@ -9,8 +9,8 @@
 
 
 - We believe our Business Management Platform server has been compromised. Please can you confirm the name of the application running?
--
-![[Pasted image 20240206133941.png]]
+
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/89c315ce-c5dd-4d9e-a5d2-dcaea1018565)
 
 
 Answer: Bonitasoft
