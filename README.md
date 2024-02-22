@@ -1,4 +1,3 @@
-
 <details>
   <br>
   <summary>HacktheBox Sherlocks</summary>
