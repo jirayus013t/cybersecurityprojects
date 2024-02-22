@@ -14,20 +14,22 @@
 
 Answer: Bonitasoft
 
+
 2. We believe the attacker may have used a subset of the brute forcing attack category - what is the name of the attack carried out?
 
 OSINT research for a subset of brute forcing attack
 
 Answer: Credential Stuffing
 
+
 3. Does the vulnerability exploited have a CVE assigned - and if so, which one?
 
 Simply search for the keyword "CVE" in alert json file
 
-![[Pasted image 20240206125731.png]]
-
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/b678aac1-ec90-4168-870a-b49e1930f950)
 
 Answer: CVE-2022-25237
+
 
 4. Which string was appended to the API URL path to bypass the authorization filter by the attacker's exploit?
 
@@ -41,6 +43,8 @@ If we filter for just http in wireshark and follow the http, we can see after th
 ![[Pasted image 20240206145734.png]]
 
 Answer: i18ntranslation
+
+
 
 5. How many combinations of usernames and passwords were used in the credential stuffing attack?
 
@@ -63,6 +67,7 @@ or alternatively
 ```
 urlencoded-form.key == "username" && !(http contains "install")
 ```
+
 6. Which username and password combination was successful?
 
 
@@ -85,6 +90,7 @@ Answer: 56
 
 Answer: seb.broom@forela.co.uk:g0vernm3nt
 
+
 8. If any, which text sharing site did the attacker utilise?
 
 If we filter through DNS in Wireshark, we can see suspicious "pastes.io"site
@@ -92,6 +98,7 @@ If we filter through DNS in Wireshark, we can see suspicious "pastes.io"site
 ![[Pasted image 20240206133111.png]]
 
 Answer: pastes.io
+
 
 9. Please provide the filename of the public key used by the attacker to gain persistence on our host.
 
@@ -110,6 +117,7 @@ Then we have the suspicious URL, if you try to go to this URL, we can see some m
 
 Answer: hffgra4unv
 
+
 10. Can you confirmed the file modified by the attacker to gain persistence?
 
 According the last question. now we also have the modified path
@@ -119,7 +127,7 @@ According the last question. now we also have the modified path
 Answer: /home/ubuntu/.ssh/authorized_keys
 
 
-- Can you confirm the MITRE technique ID of this type of persistence mechanism?
+11. Can you confirm the MITRE technique ID of this type of persistence mechanism?
 
 ![[Pasted image 20240206152502.png]]
 
