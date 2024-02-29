@@ -1,4 +1,4 @@
-<details>
+
   
   <summary>HacktheBox Sherlocks</summary>
   
@@ -13,7 +13,7 @@
   |7. |[]()|[ProcNet]|
   |8. |[]()|[i-like-to]|
   |9. |[]()|[TickTock]|
-</details>
+
 
 
 > CTFs PWNED
