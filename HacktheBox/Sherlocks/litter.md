@@ -94,11 +94,13 @@ If we pay an attention on each PII record, we can see that there's actually a nu
 
 Start with 0, Chief
 
-![Uploading image.png…]()
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/899c8dd6-f8fb-43fb-8264-cbfa9bf777b9)
+
 
 Ends with 720, Ambulance person
 
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/bf9a6b2d-b7f4-488e-a5b3-74a7b9b8be9d)
 
-![Uploading image.png…]()
+
 
 Answer: 721
