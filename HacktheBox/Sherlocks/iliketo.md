@@ -28,6 +28,8 @@ python3 vol.py -f '/home/kali/Downloads/Sherlock/volatility3-1.0.0/volatility3-1
 
 
 **EvtxECmd.exe**
+
+
 Note: cd to \EvtxeCmd path first the run the bellow command
 
 
