@@ -1,3 +1,6 @@
+**Sherlock Scenario:**
+Gladys is a new joiner in the company, she has recieved an email informing her that the IT department is due to do some work on her PC, she is guided to call the IT team where they will inform her on how to allow them remote access. The IT team however are actually a group of hackers that are attempting to attack Forela.
+
 **Evidence:**
 
 - **Event log files**
