@@ -89,12 +89,12 @@ Checking prefetch file
 **Questions:**
 
 - **What was the name of the executable that was uploaded as a C2 Agent?**
-![[Pasted image 20240204154241.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/b5c25d89-e6e6-4c2e-8f33-6fcfc13935a9)
 
 
 Alternatively, we can find the malicious downloaded file in Teamviewer log 
 
-![[Pasted image 20240205130209.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/b35eaa44-5415-4752-a9d3-ae977dbe54a9)
 
 
 Answer: merlin.exe
@@ -106,7 +106,7 @@ Answer: merlin.exe
 
 Open TeamViewer15_Logfile in Timeline explorer for ease of browsing
 
-![[Pasted image 20240205120547.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/0c22698d-2d3a-4d9f-8cc2-95f4240b28e7)
 
 
 Answer: -2102926010
@@ -119,17 +119,17 @@ Answer: -2102926010
 
 Search for "merlin.exe" in the sysmon csv file in timeline explorer and we can see 4 instances of merlin.exe
 
-![[Pasted image 20240205141148.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/d49b87ec-a5c9-4717-a190-28ddf825bd55)
 
-![[Pasted image 20240205141230.png]]
 
 Lets investigate all the ParentProcessID which include 4780,1992, and 5768 by searching these events the Timeline explorer filter
 
-![[Pasted image 20240205141657.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/42f27327-4078-4235-bcad-0c8e30f3fe38)
 
-Wen ca see that there's powershell.exe running some type of encoded command. Let's copy the encoded command and paste to [Cipher Identifier (online tool) | Boxentriq](https://www.boxentriq.com/code-breaking/cipher-identifier)
 
-![[Pasted image 20240205141821.png]]
+We can see that there's powershell.exe running some type of encoded command. Let's copy the encoded command and paste to [Cipher Identifier (online tool) | Boxentriq](https://www.boxentriq.com/code-breaking/cipher-identifier)
+
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/0d1c7773-0985-4727-8fcf-b3988d7e2e99)
 
 
 It's Base64 encoding technique, to decode, we run this command:
@@ -139,7 +139,7 @@ echo JABTAGUAYwB1AHIAZQBTAHQAcgBpAG4AZwAgAD0AIABDAG8AbgB2AGUAcgB0AFQAbwAtAFMAZQB
 ```
 
 Decoded Output:
-![[Pasted image 20240205141956.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/c58c63ce-c150-49b8-b456-ae164d6a3971)
 
 
 Answer: reallylongpassword
@@ -152,14 +152,14 @@ First, we need to understand there was team viewer connection to the victim, so 
 
 In Teamviewer log file, search for the keyword "participant"
 
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/d6eab77a-d0af-4085-ae99-66ad09b5e6b6)
 
-![[Pasted image 20240205124237.png]]
 
 - **What IP address did the C2 connect back to?**
 
 Search for the keyword "merlin.exe" in sysmon event 3
 
-![[Pasted image 20240204155329.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/6b7d8a5e-902f-4bc9-a0e9-6250b3e7b0fa)
 
 Answer: 52.56.142.81
 
@@ -167,7 +167,7 @@ Answer: 52.56.142.81
 
 Search for the keyword "merlin.exe" and go to the details section
 
-![[Pasted image 20240204154503.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/6443e09e-a7bf-4111-b70b-e5cd37efd553)
 
 Answer: VirTool:Win32/Myrddin.D
 
@@ -177,7 +177,7 @@ Answer: VirTool:Win32/Myrddin.D
 Search for keyword ".ps1" in sysmon with all events, eventually, we'll see the suspicious powershell script
 
 
-![[Pasted image 20240204190241.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/86849ebb-e34f-4ccc-9dfe-0052ccdb1268)
 
 
 
@@ -190,7 +190,7 @@ Initial access in this context mean when the attacker established a team viewer 
 
 Teamviewer Log:
 
-![[Pasted image 20240205143455.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/f37508df-cc8a-4a6d-881c-bcf1d681452e)
 
 
 
@@ -202,7 +202,8 @@ Answer: 2023/05/04 11:35:27
 Evidence: \Collection\C\ProgramData\Microsoft\Windows Defender\Support\MPLog-07102015-052145
 
 
-![[Pasted image 20240205143737.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/06dfffdb-5dba-4005-a445-2b3cc657fbf1)
+
 
 Answer: ac688f1ba6d4b23899750b86521331d7f7ccfb69:42ec59f760d8b6a50bbc7187829f62c3b6b8e1b841164e7185f497eb7f3b4db9
 
@@ -214,7 +215,7 @@ Windows	4616	The system time was changed.
 
 Open Windows Security Event log CSV that we got from the data prep phase in Timeline Explorer, then filter for event id 4616 and executable info that contain the powershell process (Invoke-TimeWizard.ps1)
 
-![[Pasted image 20240205145221.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/3c8d24c2-7225-4a43-9014-e98154466d5a)
 
 
 
@@ -225,7 +226,7 @@ Answer: 2371
 
 Search for the keyword "merlin.exe" and go to the details section
 
-![[Pasted image 20240204154712.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/589a5da2-647e-40c5-b1cb-d25e73c0ebc5)
 
 
 Answer: S-1-5-21-3720869868-2926106253-3446724670-1003
