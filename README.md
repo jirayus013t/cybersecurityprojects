@@ -1,6 +1,6 @@
 <details>
   
-  <summary>HacktheBox Sherlocks</summary>
+  
   
   |No.|SOC|DFIR|Malware Analysis|Threat Intelligence|
   |:-:|:-:|:--:|:--------------:|:-----------------:|
