@@ -1,6 +1,9 @@
-
+**Sherlock Scenario:**
+There has been a new joiner in Forela, they have downloaded their onboarding documentation, however someone has managed to phish the user with a malicious attachment. We have only managed to pull the MFT record for the new user, are you able to triage this information?
 
 **Evidence:** mft.raw
+
+
 **Tool:** MFTExplorer.exe 
 
 
@@ -21,7 +24,8 @@ python3 'C:\CTF\TOOLS-FOREN\analyzeMFT\analyzeMFT.py' -f .\mft.raw -o analyzed_m
 
 Upload MFT.raw to https://emn178.github.io/online-tools/md5_checksum.html to get MD5 Checksum
 
-![[Pasted image 20240203171943.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/f9f4a9cf-e44c-46da-9199-d9c06d4aca85)
+
 
 Answer: 3730c2fedcdc3ecd9b83cbea08373226
 
@@ -29,13 +33,15 @@ Answer: 3730c2fedcdc3ecd9b83cbea08373226
 
 - **What is the name of the only user on the system?**
 
-![[Pasted image 20240203172617.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/0bcb58b2-d733-4ca5-9b3e-75459e29a278)
+
 
 Answer: Randy Savage
 
 - **What is the name of the malicious HTA that was downloaded by that user?**
 
-![[Pasted image 20240203181746.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/e1907d45-e3b6-410a-a639-cb2db2c49259)
+
 
 
 Answer: Onboarding.hta
@@ -43,7 +49,8 @@ Answer: Onboarding.hta
 - **What is the ZoneId of the download for the malicious HTA file?**
 
 
-![[Pasted image 20240203182002.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/e334aad9-3ade-4942-a413-b212f44ea800)
+
 
 Answer: 3
 
@@ -52,9 +59,11 @@ Answer: 3
 
 Copy the following and paste it in notepad to make it easier to read:
 
-![[Pasted image 20240203182222.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/fbed5826-4737-4605-9ca0-46304eb8870a)
 
-![[Pasted image 20240203182255.png]]
+
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/831b58b8-b2ed-4204-ba9e-a4005f0cfcf8)
+
 
 
 
@@ -64,7 +73,8 @@ Answer: https://doc-10-8k-docs.googleusercontent.com/docs/securesc/9p3kedtu9rd1p
 
 
 convert it to bytes
-![[Pasted image 20240203183628.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/38de0759-ddac-4a11-a87e-6258c7787b71)
+
 
 
 Answer 4096
@@ -73,7 +83,8 @@ Answer 4096
 
 
 
-![[Pasted image 20240203183843.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/d1a037c1-7750-45a2-90e0-07dcd90a6acb)
+
 
 Answer: 1144
 
@@ -81,7 +92,8 @@ Answer: 1144
 
 - **When was the powerpoint presentation downloaded by the user?**
 
-![[Pasted image 20240203184237.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/b85abd69-7920-4ea3-9747-baf2ac6fc211)
+
 
 
 Answer: 05/04/2023 13:11:49
@@ -89,7 +101,8 @@ Answer: 05/04/2023 13:11:49
 
 - **The user has made notes of their work credentials, what is their password?**
 
-![[Pasted image 20240203184442.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/4312e292-fe49-4f8d-8f58-1fbe3965731a)
+
 
 
 Answer: ReallyC00lDucks2023!
