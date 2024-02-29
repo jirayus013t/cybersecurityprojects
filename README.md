@@ -4,7 +4,7 @@
   
   |No.|SOC|DFIR|Malware Analysis|Threat Intelligence|
   |:-:|:-:|:--:|:--------------:|:-----------------:|
-  |1. |[Meerkat](https://github.com/jirayus013t/cybersecurityprojects/blob/main/HacktheBox/Sherlocks/meerkat.md)|[Bumblebee]|[]()|
+  |1. |[Meerkat](https://github.com/jirayus013t/cybersecurityprojects/blob/main/HacktheBox/Sherlocks/meerkat.md)|[Bumblebee](https://github.com/jirayus013t/cybersecurityprojects/blob/main/HacktheBox/Sherlocks/bumblebee.md)|[]()|
   |2. |[Litter](https://github.com/jirayus013t/cybersecurityprojects/blob/main/HacktheBox/Sherlocks/litter.md)|[Logjammer](https://github.com/jirayus013t/cybersecurityprojects/blob/main/HacktheBox/Sherlocks/logjammer.md)|[]()|
   |3. |[]()|[Hyperfiletable](https://github.com/jirayus013t/cybersecurityprojects/blob/main/HacktheBox/Sherlocks/hyperfiletable.md)||
   |4. |[]()|[Tracer](https://github.com/jirayus013t/cybersecurityprojects/blob/main/HacktheBox/Sherlocks/tracer.md)|
