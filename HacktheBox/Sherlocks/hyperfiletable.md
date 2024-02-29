@@ -7,8 +7,7 @@ There has been a new joiner in Forela, they have downloaded their onboarding doc
 **Tool:** MFTExplorer.exe 
 
 
-**Optional** (In case something goes wrong and mft.raw could't be loaded in MFTExplorer.exe): 
-Reference: https://github.com/jon-brandy/hackthebox/blob/main/Categories/Sherlocks/Hyperfiletable/README.md
+
 Converting mft.raw into .csv and then load it in TimelineExplorer
 ```
 python3 'C:\CTF\TOOLS-FOREN\analyzeMFT\analyzeMFT.py' -f .\mft.raw -o analyzed_mft.csv
