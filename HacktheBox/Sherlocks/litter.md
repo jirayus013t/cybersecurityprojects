@@ -6,8 +6,9 @@ suspicious traffic.pcap
 
 At a glance, what protocol seems to be suspect in this attack?
 
-==DNS==
-![[Pasted image 20240128145523.png]]
+![image](https://github.com/jirayus013t/cybersecurityprojects/assets/49973180/ac6ee83a-6925-42a9-977e-8bbf759ce959)
+
+Answer: DNS
 Task 2
 
 There seems to be a lot of traffic between our host and another, what is the IP address of the suspect host?
