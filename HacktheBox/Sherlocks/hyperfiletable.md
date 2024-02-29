@@ -8,7 +8,7 @@ There has been a new joiner in Forela, they have downloaded their onboarding doc
 
 
 
-Converting mft.raw into .csv and then load it in TimelineExplorer
+Converting mft.raw into .csv and then load it into TimelineExplorer
 ```
 python3 'C:\CTF\TOOLS-FOREN\analyzeMFT\analyzeMFT.py' -f .\mft.raw -o analyzed_mft.csv
 ```
