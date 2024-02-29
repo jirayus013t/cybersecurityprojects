@@ -12,7 +12,7 @@
   |6. |[]()|[Noted]|
   |7. |[]()|[ProcNet]|
   |8. |[]()|[i-like-to]|
-  |9. |[]()|[TickTock]|
+  |9. |[]()|[TickTock](https://github.com/jirayus013t/cybersecurityprojects/blob/main/HacktheBox/Sherlocks/ticktock.md)|
 
 
 
