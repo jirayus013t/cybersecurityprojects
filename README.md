@@ -8,7 +8,7 @@
   |2. |[Litter](https://github.com/jirayus013t/cybersecurityprojects/blob/main/HacktheBox/Sherlocks/litter.md)|[Logjammer]|[]()|
   |3. |[]()|[Hyperfiletable]||
   |4. |[]()|[Tracer]|
-  |5. |[]()|[RogueOne]|
+  |5. |[]()|[RogueOne](https://github.com/jirayus013t/cybersecurityprojects/blob/main/HacktheBox/Sherlocks/rogueone.md)|
   |6. |[]()|[Noted]|
   |7. |[]()|[ProcNet]|
   |8. |[]()|[i-like-to]|
