@@ -108,4 +108,5 @@ Answer: 05/04/2023 13:11:49
 Answer: ReallyC00lDucks2023!
 
 - **How many files remain under the C:\Users\ directory? (Recursively)**
+
 Answer: 3471
